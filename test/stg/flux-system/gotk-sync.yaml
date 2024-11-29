@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./test/prod/
+  path: ./test/stg/
   prune: true
   sourceRef:
     kind: GitRepository
